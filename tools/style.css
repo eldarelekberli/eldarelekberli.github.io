@@ -60,6 +60,24 @@ text-align: center;
 	background: url(../images/background.jpg) center top no-repeat;
 	background-size: cover;
 	min-height: 499px;
+  z-index: 1;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+
+.abovebannerblur{
+  width: 100%;
+  float: left;
+  position: fixed;
+  min-height: 400px;
+  background: url(../images/background2.png) center top no-repeat;
+	background-size: cover;
+  opacity: 0.3;
+  z-index: 2;
+
 }
 
 .header{
@@ -107,14 +125,14 @@ p.line1{
 	border: 1px solid #8b7d73;
 -webkit-border-radius: 5px;
 -moz-border-radius: 5px;
-border-radius: 5px;	
+border-radius: 5px;
 float: left;
 width: 100%;
 }
 
 .field input{
 	width: 58%;
-	font-family: 'Merriweather', serif;	
+	font-family: 'Merriweather', serif;
 	float: left;
 	background: none;
 	border: none;
@@ -133,14 +151,14 @@ width: 100%;
 	border: none;
 	font-family: 'Merriweather', serif;
 	text-transform: uppercase;
-	letter-spacing: 2px;	
+	letter-spacing: 2px;
 	padding: 10px 0;
 	margin: 6px 1%;
 	font-size: 12px;
 	cursor: pointer;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
-	border-radius: 2px;		
+	border-radius: 2px;
 }
 
 .submit:hover input{
@@ -165,7 +183,7 @@ h2{
 	width: 32%;
 	float: left;
 	border-right: 1px solid #d3d1cf;
-	
+
 }
 
 .email a{
@@ -259,7 +277,7 @@ email a:hover{
 	min-height: 360px;
 }
 
-	
+
 .header{
 	width: 100%;
 	float: left;
@@ -273,7 +291,7 @@ h1{
 	color: #fff;
 }
 
-	
+
 p.line1{
 	font-size: 11px;
 	text-transform: uppercase;
@@ -310,10 +328,10 @@ width: 100%;
 		border: 1px solid #8b7d73;
 -webkit-border-radius: 5px;
 -moz-border-radius: 5px;
-border-radius: 5px;	
+border-radius: 5px;
 	text-align: center;
 	width: 100%;
-	font-family: 'Merriweather', serif;	
+	font-family: 'Merriweather', serif;
 	float: left;
 	background: none;
 	font-size: 10px;
@@ -331,14 +349,14 @@ border-radius: 5px;
 	border: none;
 	font-family: 'Merriweather', serif;
 	text-transform: uppercase;
-	letter-spacing: 2px;	
+	letter-spacing: 2px;
 	padding: 10px 0;
 	margin: 6px 0;
 	font-size: 12px;
 	cursor: pointer;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
-	border-radius: 2px;		
+	border-radius: 2px;
 }
 
 
@@ -355,7 +373,7 @@ h2{
 	padding: 20px 0;
 	float: left;
 	border-right: none;
-	
+
 }
 
 .email, .social{
@@ -367,7 +385,6 @@ h2{
 .belowbanner{
 	margin-top: 20px;
 }
-	
-	
-}
 
+
+}
