@@ -53,7 +53,7 @@ text-align: center;
 }
 
 
-.abovebanner{
+.abovebannerpic{
 	width: 100%;
 	float: left;
 	position: relative;
@@ -61,24 +61,28 @@ text-align: center;
 	background-size: cover;
 	min-height: 499px;
   z-index: 1;
-  -webkit-filter: blur(10px);
-  -moz-filter: blur(10px);
-  -o-filter: blur(10px);
-  -ms-filter: blur(10px);
-  filter: blur(10px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
 }
 
 .abovebannerblur{
   width: 100%;
   float: left;
   position: fixed;
-  min-height: 400px;
+  min-height: 499px;
   background: url(../images/background2.png) center top no-repeat;
 	background-size: cover;
   opacity: 0.3;
   z-index: 2;
-
 }
+ .abovebannerbtext{
+   z-index: 3;
+   position: fixed;
+}
+
 
 .header{
 	width: 100%;
