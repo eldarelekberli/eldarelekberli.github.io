@@ -201,12 +201,11 @@ h2{
   font-size: 14px;
 }
 
-.adres a{
+.adres p{
+  margin-left: 10px;
 	color: #433022;
-	font-size: 14px;
 	font-weight: 700;
-	text-transform: uppercase;
-	text-decoration: none;
+	font-size: 14px;
 }
 
 
