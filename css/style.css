@@ -1,0 +1,390 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+html, body {
+  height: 100%;
+  color: #939598;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: #A6CE39;
+  margin-bottom: 30px;
+  font-size: 2em;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+  text-transform: uppercase;
+  color: #338caf;
+  font-size: 2em;
+  margin-bottom: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h4{
+  color: #FFF;
+}
+
+p, li{
+  font-size: 18px;
+}
+
+.button-container{
+  display: block;
+  margin: 40px 0;
+}
+
+.custom-button{
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: #e47d00;
+  color: #FFF;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline !important;
+}
+
+.custom-button:hover,
+.custom-button:focus{
+  background: #FFF;
+  color: #e47d00;
+  text-decoration: none;
+}
+
+.pad-section {
+  padding: 20px 0;
+}
+
+.inner-section{
+  padding: 50px 0 0 0;
+}
+
+.centered {
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.white{
+  color: #FFF;
+}
+
+.green{
+  color: #A6CE39;
+}
+
+.blue{
+  color: #338caf;
+}
+
+.orange{
+  color: #e47d00 !important;
+}
+
+.navbar{
+  background-color: #338caf;
+  border: none;
+}
+
+ul.nav li a,
+.navbar-brand{
+  color: #FFF !important;
+  text-transform: uppercase;
+}
+
+#home .date{
+   padding: 2vw;
+   box-shadow: 3px 3px 5px #888;
+   width: 15vw;
+   height: 15vw;
+   text-align: center;   
+   clear: both;
+   border: 2px solid #eee;   
+   margin: 0 auto;
+   margin-bottom: 5 vw;
+}
+
+
+#when .date{
+   padding: 15px;
+   width: 80px;
+   height: 80px;
+   text-align: center;   
+   clear: both;
+   border: 1px solid #eee; 
+   border-radius: 100%;  
+   margin:  auto;
+   margin-bottom: 5px;
+   background-color: white;
+}
+
+
+
+
+.last-date-info{  
+  vertical-align: top;
+}
+
+#home .day{
+  color: #e47d00;
+  font-size: 9vw;
+  line-height: 8vw;
+  margin-top: 1vw;
+
+}
+
+#when .day{
+  color: #e47d00;
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: 1px;
+}
+
+#when .gundelik {
+	border-radius: 50px;
+	width: 83%;
+	text-align: center;
+	margin : 8%;
+	font-size: 2vw;
+}
+
+.odd {
+	background-color: #f8f8f8;
+} 
+
+#home .month{
+  font-size: 4vw;
+  text-align: center; 
+}
+
+#home .texniki_tur{
+  font-size: 2vw;
+  text-align: center; 
+  color: #917334;
+}
+
+
+#when .month{
+  font-size: 12px;
+  text-align: center; 
+}
+
+
+#who, #why, #where, #when,
+#where #map{
+    min-height: 900px;
+    height: auto;  
+  }
+
+#home {
+  background: url(../images/IMG_2924.jpg) no-repeat center center fixed; 
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 100%;
+  line-height: 100%;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home p{
+  color: #FFF;
+}
+
+#register{
+  z-index: 99999;  
+  margin: 10px;  
+  overflow: hidden;  
+  margin: -4px;
+  line-height: 80px;
+}
+
+#register #register-container{
+  position: relative;
+  width: 130px;
+  height: 105px;  
+  overflow: hidden;
+  float: left;
+}
+
+#register .register-message{
+  vertical-align: top;
+  line-height: 19px;  
+}
+
+#register .register-message a{
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#register #register-container iframe{
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  -ms-zoom: 0.75;
+  -moz-transform: scale(0.75);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.75);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.75);
+  -webkit-transform-origin: 0 0;
+}
+
+#when {
+  background-color: #FFF;
+  min-height: 300px;
+  height: auto;
+  position: relative;
+}
+
+#where{
+  height: 300px;
+  position: relative;
+  display: block;
+}
+
+#where #map{
+  height: 300px;
+}
+
+#where .title{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: transparent;
+  z-index: 1000;
+  width: 100%;
+}
+
+#where .title h2{
+  text-align: center;
+}
+
+#results {  
+  display: block;
+  min-height: 800px;
+  height: auto;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+
+#results table{
+  color: #FFF;
+  font-size: 20px;
+}
+
+#results table thead tr{
+  font-size: 25px;
+}
+
+#results a{
+  color: #e47d00;
+  text-decoration: none;
+}
+
+#results a:hover{
+  color: #FFF;
+}
+
+
+#why {
+  background-color: #338caf;
+  color: #FFF;
+  min-height: 330px;
+  height: auto;
+}
+
+#sponsors {
+  background-color: #e47d00;
+  color: #FFF;
+  min-height: 330px;
+  height: auto;
+}
+
+#who{
+  background-color: #A6CE39;
+  color: #FFF;
+}
+
+#who table{
+  font-size: 12px;
+}
+
+
+#git{
+  background-color: #A6CE39;
+  color: #FFF;
+}
+
+footer {
+  height: 40px;  
+  background: #e47d00;
+  padding-top: 6px;
+}
+
+footer p{
+  color: #FFF;
+  font-size: 16px;
+}
+
+dates{
+    text-align: center;
+     
+    list-style-type: none;
+    
+}
+
+@media (min-width: 768px) {
+  h1{
+    font-size: 5em;
+  }
+
+  h2{
+    font-size: 4em;
+  }
+
+ 
+  #who table{
+   font-size: 18px;
+  }
+
+  #why .container,
+  #who .container,
+  #sponsors .container,
+  #resources .container{
+    padding-top: 50px;
+    padding-bottom: 50px
+  }
+
+  #home #dates{
+    height: 29vw;
+  }
+  
+  #when #dates{
+    height: 90px;
+  }
+
+}
+
+/* iframe styling */
+iframe.highlight{
+  background: none !important;
+}
