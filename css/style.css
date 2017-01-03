@@ -368,6 +368,14 @@ ul.nav li a,
   color: #FFF;
 }
 
+.mresult{
+	width: 70%;
+	margin: auto;
+	padding: 2vw;
+	height: 4vw;
+	background-color: #eee;
+}
+
 .underline {
 	border-bottom: 1px solid #eee;
 	width: 20vw;
@@ -396,9 +404,9 @@ ul.nav li a,
 	font-size: 2vw;
 }
 
- .td {
+#why td {
 	color: #d6d6d6;
-	font-size: 1.2vw;
+	font-size: 1.5vw;
 	margin: auto;
 	padding: auto;
 }
@@ -416,13 +424,13 @@ ul.nav li a,
  
  #why .metn {
  	padding: 10px;
- 	font-size: 1.9vw;
+ 	font-size: 1.5vw;
  	
  }
 
 #why li {
  	padding: 0.1vw;
- 	font-size: 1.8vw;
+ 	font-size: 1.5vw;
  	
  }
 
@@ -441,6 +449,59 @@ ul.nav li a,
 #who table{
   font-size: 12px;
 }
+
+
+
+
+
+
+
+#who table {
+	
+	text-align: center;
+	width: 40vw;
+	margin: auto;
+	border: 1px solid #eee;
+	
+}
+
+#who .th{
+	text-align:center;
+	font-size: 2vw;
+}
+
+#who td {
+	color: #d6d6d6;
+	font-size: 1.5vw;
+	margin: auto;
+	padding: auto;
+}
+
+#who .h2 {
+	margin: 4vw;
+}
+
+ 
+ 
+ 
+ #who .metn {
+ 	padding: 10px;
+ 	font-size: 1.5vw;
+ 	
+ }
+
+#who li {
+ 	padding: 0.1vw;
+ 	font-size: 1.5vw;
+ 	
+ }
+
+
+
+
+
+
+
 
 
 #git{
