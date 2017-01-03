@@ -111,7 +111,8 @@ ul.nav li a,
 }
 
 #home {
-  background: url(../images/IMG_2924.jpg) no-repeat center center fixed; 
+  background: url(../images/IMG_2924.jpg) no-repeat center center fixed;
+  background-size: 100% auto;  
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -411,14 +412,10 @@ ul.nav li a,
 	
 }
 
-#why .th{
-	text-align:center;
-	font-size: 4vw;
-}
 
 #why td {
 	color: #d6d6d6;
-	font-size: 3vw;
+	font-size: 4vw;
 	margin: auto;
 	padding: auto;
 }
@@ -436,13 +433,13 @@ ul.nav li a,
  
  #why .metn {
  	padding: 10px;
- 	font-size: 3vw;
+ 	font-size: 4vw;
  	
  }
 
 #why li {
  	padding: 0.1vw;
- 	font-size: 3vw;
+ 	font-size: 4vw;
  	
  }
 
@@ -456,16 +453,8 @@ ul.nav li a,
 #who{
   background-color: #A6CE39;
   color: #FFF;
+  height: auto;
 }
-
-#who table{
-  font-size: 12px;
-}
-
-
-
-
-
 
 
 #who table {
@@ -474,17 +463,15 @@ ul.nav li a,
 	width: 80%;
 	margin: auto;
 	border: 1px solid #eee;
+	font-size: 12px;
 	
 }
 
-#who .th{
-	text-align:center;
-	font-size: 4vw;
-}
+
 
 #who td {
 	color: #d6d6d6;
-	font-size: 3vw;
+	font-size: 4vw;
 	margin: auto;
 	padding: auto;
 }
@@ -498,13 +485,13 @@ ul.nav li a,
  
 #who .metn {
  	padding: 10px;
- 	font-size: 3vw;
+ 	font-size: 4vw;
  	
  }
 
 #who li {
  	padding: 0.1vw;
- 	font-size: 3vw;
+ 	font-size: 4vw;
  	
  }
 
