@@ -112,7 +112,7 @@ ul.nav li a,
 
 #home {
   background: url(../images/IMG_2924.jpg) no-repeat center center fixed;
-  background-size: 100% auto;  
+  background-size: 100% 100%;  
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -357,7 +357,7 @@ ul.nav li a,
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 
@@ -535,6 +535,8 @@ dates{
 	width: 20vw;
 	margin-top: 5%;
 	}
+	
+	
 
 	#why .th{
 	text-align:center;
@@ -654,6 +656,29 @@ dates{
   text-align: center; 
   color: #917334;
 }
+
+
+#home {
+    background: url(../images/IMG_2924.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+    line-height: 100%;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 }
 
