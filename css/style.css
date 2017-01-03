@@ -24,13 +24,19 @@ h2{
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+
 h4{
   color: #FFF;
 }
 
-p, li{
-  font-size: 18px;
+p{
+  font-size: 2.2vw;
 }
+
+li{
+  font-size: 22px;
+}
+
 
 .button-container{
   display: block;
@@ -95,9 +101,13 @@ ul.nav li a,
   text-transform: uppercase;
 }
 
+.last-date-info{  
+  vertical-align: top;
+}
+
 #home .date{
-   padding: 2vw;
-   box-shadow: 3px 3px 5px #888;
+   padding: 1vw;
+   box-shadow: 1.5px 1.5px 2.5px #888;
    width: 15vw;
    height: 15vw;
    text-align: center;   
@@ -108,10 +118,43 @@ ul.nav li a,
 }
 
 
+
+
+#home .day{
+  color: #e47d00;
+  font-size: 9vw;
+  line-height: 8vw;
+  margin-top: 1vw;
+}
+
+.fev {
+	background color: #FFF;
+}
+
+#when {
+  display: block;
+  min-height: 800px;
+  height: auto;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+
+#when .day{
+  color: #e47d00;
+  font-size: 3vw;
+  line-height: 2vw;
+  margin-top: 0.15vw;
+}
+
+
 #when .date{
-   padding: 15px;
-   width: 80px;
-   height: 80px;
+   padding: 0.75vw;
+   width: 5vw;
+   height: 5vw;
    text-align: center;   
    clear: both;
    border: 1px solid #eee; 
@@ -122,40 +165,41 @@ ul.nav li a,
 }
 
 
-
-
-.last-date-info{  
-  vertical-align: top;
-}
-
-#home .day{
-  color: #e47d00;
-  font-size: 9vw;
-  line-height: 8vw;
-  margin-top: 1vw;
-
-}
-
-#when .day{
-  color: #e47d00;
-  font-size: 40px;
-  line-height: 40px;
-  margin-top: 1px;
-}
-
 #when .gundelik {
-	border-radius: 50px;
+	border-radius: 2.5vw;
 	width: 83%;
 	text-align: center;
-	margin : 8%;
-	font-size: 2vw;
+	margin-left : 8%;
+	font-size: 2.1vw;
 }
+
+
+#when .gmetn {
+	text-align: center;
+	padding: 1.5vw;
+}
+
+#when .month{
+	font-size: 0.8vw;
+	text-align: center; 
+	padding: 0.75 vw;
+}
+
+#when {
+	background-color: #FFF;
+	height: auto;
+	position: relative;
+}
+
+
+
 
 .odd {
 	background-color: #f8f8f8;
 } 
 
 #home .month{
+	padding-top: 1vw;
   font-size: 4vw;
   text-align: center; 
 }
@@ -167,10 +211,6 @@ ul.nav li a,
 }
 
 
-#when .month{
-  font-size: 12px;
-  text-align: center; 
-}
 
 
 #who, #why, #where, #when,
@@ -201,6 +241,25 @@ ul.nav li a,
 
 #home p{
   color: #FFF;
+}
+
+ .istirakcilar {
+	height: 50px;
+	text-align: center;
+	margin: auto;
+}
+
+.back_pic {
+	border: 1px solid #eee;
+	width: 20vw;
+	height: 20vw;
+	border-radius: 100%;
+}
+
+#akorkmaz {
+	background: url(../images/akorkmaz.jpg) no-repeat center center; 
+	width: 20vw;
+	height: 20vw;
 }
 
 #register{
@@ -244,12 +303,7 @@ ul.nav li a,
   -webkit-transform-origin: 0 0;
 }
 
-#when {
-  background-color: #FFF;
-  min-height: 300px;
-  height: auto;
-  position: relative;
-}
+
 
 #where{
   height: 300px;
@@ -274,17 +328,27 @@ ul.nav li a,
   text-align: center;
 }
 
-#results {  
-  display: block;
-  min-height: 800px;
+#results {
+  background: url(../images/istirakcilar.jpg) no-repeat center center fixed; 
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
   height: auto;
+  line-height: 100%;
   position: relative;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 100%;
 }
+
+
 
 #results table{
   color: #FFF;
@@ -304,13 +368,63 @@ ul.nav li a,
   color: #FFF;
 }
 
+.underline {
+	border-bottom: 1px solid #eee;
+	width: 20vw;
+}
+
 
 #why {
   background-color: #338caf;
   color: #FFF;
   min-height: 330px;
   height: auto;
+  
 }
+
+#why table {
+	
+	text-align: center;
+	width: 40vw;
+	margin: auto;
+	border: 1px solid #eee;
+	
+}
+
+#why .th{
+	text-align:center;
+	font-size: 2vw;
+}
+
+ .td {
+	color: #d6d6d6;
+	font-size: 1.2vw;
+	margin: auto;
+	padding: auto;
+}
+
+#why .h2 {
+	margin: 4vw;
+}
+
+ tr .first {
+
+ 	text-align: left;
+ 	border-right: 1px solid #eee;
+ 	
+ }
+ 
+ #why .metn {
+ 	padding: 10px;
+ 	font-size: 1.9vw;
+ 	
+ }
+
+#why li {
+ 	padding: 0.1vw;
+ 	font-size: 1.8vw;
+ 	
+ }
 
 #sponsors {
   background-color: #e47d00;
@@ -378,9 +492,6 @@ dates{
     height: 29vw;
   }
   
-  #when #dates{
-    height: 90px;
-  }
 
 }
 
