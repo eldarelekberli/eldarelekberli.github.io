@@ -125,10 +125,10 @@ ul.nav li a,
   height: 100%;
   line-height: 100%;
   position: relative;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #home p{
@@ -357,7 +357,7 @@ ul.nav li a,
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: contain;
+  background-size: cover;
 }
 
 
