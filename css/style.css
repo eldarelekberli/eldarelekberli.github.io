@@ -462,7 +462,7 @@ ul.nav li a,
 	text-align: center;
 	width: 80%;
 	margin: auto;
-	border: 1px solid #eee;
+	border: 1px solid #fff;
 	font-size: 12px;
 	
 }
@@ -544,8 +544,8 @@ dates{
 }
 
 	#why td {
-	color: #d6d6d6;
-	font-size: 1.5vw;
+	color: #fff;
+	font-size: 2vw;
 	margin: auto;
 	padding: auto;
 }
@@ -570,57 +570,53 @@ dates{
 	#why li {
  	padding: 0.1vw;
  	font-size: 1.5vw;
- 	
- }
+ 	}
 
 	h1{
     font-size: 500%;
-  }
+    }
 
 	h2{
     font-size: 400%;
-  }
+    }
 
 	#who table{
-  font-size: 12px;
-}
+    font-size: 12px;
+    }
 
 	#who table {
 	
 	text-align: center;
 	width: 60%;
 	margin: auto;
-	border: 1px solid #eee;
-	
-}
+	border: 1px solid #fff;
+	}
 
 	#who .th{
 	text-align:center;
 	font-size: 2vw;
-}
+    }
 
 	#who td {
-	color: #d6d6d6;
-	font-size: 1.5vw;
+	color: #fff;
+	font-size: 2vw;
 	margin: auto;
 	padding: auto;
-}
+    }
 
 	#who .h2 {
 	margin: 4vw;
-}
+    }
 
 	#who .metn {
  	padding: 10px;
  	font-size: 1.5vw;
- 	
- }
+ 	}
 
 	#who li {
  	padding: 0.1vw;
  	font-size: 1.5vw;
- 	
- }
+ 	}
  
 	#home .date{
    padding: 1vw;
