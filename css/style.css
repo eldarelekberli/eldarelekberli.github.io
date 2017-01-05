@@ -137,7 +137,7 @@ ul.nav li a,
 
 
 
-#home .date{
+    #home .date{
    padding: 1vw;
    box-shadow: 1.5px 1.5px 2.5px #888;
    width: 30%;
@@ -204,7 +204,6 @@ ul.nav li a,
    width: 5vw;
    height: 5vw;
    text-align: center;   
-   clear: both;
    border: 1px solid #eee; 
    border-radius: 100%;  
    margin:  auto;
@@ -255,24 +254,41 @@ ul.nav li a,
   }
 
 
- .istirakcilar {
-	height: 50px;
-	text-align: center;
-	margin: auto;
+    .test{
+        height: 200px;
+        width: 200px;
+        display: inline-block;
+        border: 3px dotted #bbb;
+    }
+
+  .istirakcilar {
+	height: 240px;
+    width: 200px;
+	display: inline-block;
+	border: 2px solid #cac;
+	justify-content: center;
+
 }
 
-.back_pic {
-	border: 1px solid #eee;
-	width: 20vw;
-	height: 20vw;
-	border-radius: 100%;
+
+#when p{
+    text-align: center;
+    font-size: 10px;
+    border: 2px solid #eee;
+    width: 180px;
+    
 }
 
-#akorkmaz {
-	background: url(../images/akorkmaz.jpg) no-repeat center center; 
-	width: 20vw;
-	height: 20vw;
+
+
+#when img {
+border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    
 }
+
+
 
 #register{
   z-index: 99999;  
@@ -358,6 +374,10 @@ ul.nav li a,
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
+  
+  
+ 
 }
 
 
@@ -382,9 +402,9 @@ ul.nav li a,
 
 .mresult{
 	width: 70%;
-	margin: auto;
-	padding: 2vw;
-	height: 4vw;
+	margin: 2vw;
+	padding: 0.2vw;
+	height: 1vw;
 	background-color: #eee;
 }
 
@@ -530,6 +550,15 @@ dates{
 
 @media(min-width: 768px){
 
+
+    .mresult {
+	width: 100%;
+	margin: 2vw;
+	padding: 0.2vw;
+	height: 1vw;
+	background-color: #eee;
+    }
+
 	.underline {
 	border-bottom: 1px solid #eee;
 	width: 20vw;
@@ -566,6 +595,13 @@ dates{
  	font-size: 1.5vw;
  	
  }
+   #why table {
+	
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	border: 1px solid #fff;
+	}
 
 	#why li {
  	padding: 0.1vw;
@@ -582,6 +618,12 @@ dates{
 
 	#who table{
     font-size: 12px;
+    }
+    
+    #who{
+    background-color: #A6CE39;
+    color: #FFF;
+    height: auto;
     }
 
 	#who table {
@@ -651,10 +693,10 @@ dates{
   font-size: 2vw;
   text-align: center; 
   color: #917334;
-}
+    }
 
 
-#home {
+    #home {
     background: url(../images/IMG_2924.jpg) no-repeat center center fixed;
     background-size: 100% 100%;  
     display: -webkit-box;
@@ -673,7 +715,7 @@ dates{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+    }
 
 
 }
