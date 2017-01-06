@@ -2,10 +2,6 @@ $(document).ready(function (){
   
   new WOW().init();
 
-
-
-  new WOW().init();
-
   var scrollIt = function(){    
     $('a[data-section]').click(function(e){
         var section =  $(this).attr('data-section');
