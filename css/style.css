@@ -110,6 +110,10 @@ ul.nav li a,
   vertical-align: top;
 }
 
+
+
+
+
 #home {
   background: #778899;
   background-size: 100% 100%;  
@@ -167,22 +171,23 @@ ul.nav li a,
 }
 
 #home .day{
-  color: #e47d00;
+  color: #ffffff;
   font-size: 9vw;
   line-height: 1.2;
   margin-top: auto;
 }
 
 #home .month{
-	padding-top: 1vw;
+    padding-top: 1vw;
   font-size: 3vw;
-  text-align: center; 
+  text-align: center;
+  color: #3c5a96; 
 }
 
 #home .texniki_tur{
   font-size: 2vw;
   text-align: center; 
-  color: #917334;
+  color: #00ff00;
 }
 
 
@@ -594,7 +599,26 @@ dates{
  	font-size: 1.5vw;
  	}
  	
-
+    #home {
+  background: url(../images/IMG_2924.jpg) no-repeat center center fixed;
+  background-size: 100% auto;  
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: auto;
+  line-height: 100%;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
  
 	#home .date{
    padding: 1vw;
@@ -613,7 +637,7 @@ dates{
 }
 
 	#home .day{
-  color: #e47d00;
+
   font-size: 9vw;
   line-height: 1.2;
   margin-top: auto;
@@ -628,7 +652,7 @@ dates{
 	#home .texniki_tur{
   font-size: 2vw;
   text-align: center; 
-  color: #917334;
+
     }
 
 
