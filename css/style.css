@@ -606,7 +606,7 @@ dates{
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  height: 100%;
+  height: auto;
   line-height: 100%;
   position: relative;
   -webkit-background-size: cover;
