@@ -360,8 +360,8 @@ border-radius: 100%;
 
 
 #why {
-  background-color: #62D0FB;
-  color: #FFF;
+
+  color: #8c8c8c;
   min-height: 330px;
   height: auto;
   
@@ -372,13 +372,13 @@ border-radius: 100%;
 	text-align: center;
 	width: 80%;
 	margin: auto;
-	border: 1px solid #fff;
+	border: 1px solid #8c8c8c;
 	
 }
 
 
 #why td {
-	color: #fff;
+	color: #8c8c8c;
 	font-size: 4vw;
 	margin: auto;
 	padding: auto;
@@ -390,7 +390,7 @@ border-radius: 100%;
 
  tr .first {
     text-align: left;
- 	border-right: 1px solid #fff;
+ 	border-right: 1px solid #8c8c8c;
  	
  }
  
@@ -516,7 +516,6 @@ dates{
 }
 
 	#why td {
-	color: #fff;
 	font-size: 2vw;
 	margin: auto;
 	padding: auto;
@@ -543,7 +542,6 @@ dates{
 	text-align: center;
 	width: 60%;
 	margin: auto;
-	border: 1px solid #fff;
 	}
 
 	#why li {
