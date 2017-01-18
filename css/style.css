@@ -196,6 +196,7 @@ ul.nav li a,
 }
 
 #when {
+  background-color: #eaebec;
   display: block;
   min-height: 800px;
   height: auto;
@@ -206,15 +207,6 @@ ul.nav li a,
   background-size: cover;
   width: 100%;
 }
-
-
-
-
-
-.odd {
-	background-color: #f8f8f8;
-} 
-
 
 
 #who, #why, #where, #when,
@@ -283,9 +275,7 @@ border-radius: 100%;
   display: block;
 }
 
-#where #map{
-  height: 300px;
-}
+
 
 #where .title{
   position: absolute;
@@ -301,7 +291,7 @@ border-radius: 100%;
 }
 
 #results {
-  background: url(../images/istirakcilar.jpg) no-repeat center center fixed; 
+
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -318,17 +308,45 @@ border-radius: 100%;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
-  
-  
- 
 }
 
 
+#results .odd {
+    background-color: #fafafa;
+}
+#results h3 {
+    color: #101010;
+    font-size: 250%;
+    margin: 10%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#results td {
+    font-style: italic;
+}
+
+#results p {
+    font-style: normal;
+    font-size: 130%;
+    color: black;
+}
+
+#results .clock {
+    font-style: normal;
+    font-weight: #700;
+    font-size: 130%;
+}
 
 #results table{
-  color: #FFF;
+  margin: auto;
+  width: 90%;
+  color: #5c5c5c;
   font-size: 20px;
+}
+
+#results .row {
+    margin-bottom: 10%;
 }
 
 #results table thead tr{
@@ -344,13 +362,7 @@ border-radius: 100%;
   color: #FFF;
 }
 
-.mresult{
-	width: 70%;
-	margin: 2vw;
-	padding: 0.2vw;
-	height: 1vw;
-	background-color: #eee;
-}
+
 
 .underline {
 	border-bottom: 1px solid #eee;
@@ -360,7 +372,7 @@ border-radius: 100%;
 
 
 #why {
-
+  background-color: #eaebec;
   color: #8c8c8c;
   min-height: 330px;
   height: auto;
@@ -415,7 +427,7 @@ border-radius: 100%;
 }
 
 #who{
-  background-color: #A6CE39;
+  background-color: #778899;
   color: #FFF;
   height: auto;
 }
@@ -559,7 +571,6 @@ dates{
     }
     
     #who{
-    background-color: #778899;
     color: #FFF;
     height: auto;
     }
