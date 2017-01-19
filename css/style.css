@@ -329,21 +329,20 @@ border-radius: 100%;
 
 #results p {
     font-style: normal;
-    font-size: 130%;
+    font-size: 150%;
     color: black;
 }
 
 #results .clock {
     font-style: normal;
-    font-weight: #700;
-    font-size: 130%;
+    font-weight: 700;
+    font-size: 150%;
 }
 
 #results table{
   margin: auto;
   width: 99%;
   color: #5c5c5c;
-  font-size: 20px;
 }
 
 #results .row {
