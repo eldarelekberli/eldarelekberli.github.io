@@ -317,7 +317,7 @@ border-radius: 100%;
 }
 #results h3 {
     color: #101010;
-    font-size: 250%;
+    font-size: 290%;
     margin: 10%;
   text-align: center;
   vertical-align: middle;
@@ -329,30 +329,28 @@ border-radius: 100%;
 
 #results p {
     font-style: normal;
-    font-size: 130%;
+    font-size: 230%;
     color: black;
 }
 
 #results .clock {
     font-style: normal;
     font-weight: #700;
-    font-size: 130%;
+    font-size: 230%;
 }
 
 #results table{
   margin: auto;
   width: 90%;
   color: #5c5c5c;
-  font-size: 20px;
+  font-size: 230%;
 }
 
 #results .row {
     margin-bottom: 10%;
 }
 
-#results table thead tr{
-  font-size: 25px;
-}
+
 
 #results a{
   color: #e47d00;
