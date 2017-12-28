@@ -602,60 +602,52 @@ button:focus {
   5. Services section
    ========================================================================== */
 #services p {
-  margin: auto;
   padding: 0px;
   text-align: center; 
-  height: 100%;
-  //line-height: 60px;
-//  vertical-align: middle;
-}
-
-//.test {
-//  border: 1px solid red;
-//  text-align: center;
-  background-color: black;
-//  vertical-align:middle;
+  vertical-align: middle;
 }
 
 #services .tall  {
-  height: 80px;
-  line-height: 80px;
+  min-height: 80px;
   text-align: center;
 }
 
-#services .short p {
-  background-color: rgb(240,240,240);
-  border-radius: 10px
+#services .tall .mtext {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 2rem 0;
 }
 
-#services .mtime  {
+#services .tall .mtime {
+  padding: 2rem;
   border-right: 1px dashed #aaa;
-  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+
 }
 
-#services .mtime  p {
-  background-color: white;
+#services .short .mtime {
+  border-right: 1px dashed #aaa;
+  padding: 1%;
+}
+
+#services .short .mtext {
+  background-color: rgb(240,240,240);
+  padding: 1%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 1%;
+}
+
+#services .test  {
+  background-color: red;
   border-bottom: 1px solid #aaa;
   border-radius: 0px;
 }
 #ustxet {
-  border-top: 1px solid #aaa;
+  border-top: 1px solid #ddd;
 }
-
-
-#services .mtext  {
-  border: 1px solid rgb(230,230,230);
-  border-radius: 10px;
-  margin: auto;
-}
-
-//#services p:hover   {
-  background-color: #fdb;
-  color: white;
-  transition: all 0.3s ease 0.1s;
-}
-
-
+/*
 .item-boxes {
   text-align: center;
   //padding: 0px 15px;
@@ -697,6 +689,11 @@ button:focus {
 .item-boxes:hover .icon i {
   color: #fff;
 }
+*/
+#services .tall .mtext:hover {
+  color: #61D2B4;
+}
+
 
 /* ==========================================================================
   6. Features Section Style
