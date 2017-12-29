@@ -47,6 +47,10 @@ body {
   overflow-x: hidden;
 }
 
+.hidden {
+  display: none;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -67,7 +71,7 @@ a {
   transition: all 0.2s linear;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h5 {
   font-family: sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -431,22 +435,19 @@ button:focus {
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 25px;
-  
 }
 
 #hero-area .contents p {
   font-size: 14px;
   color: #fff;
   font-weight: 400;
-  line-height: 60px;
+  line-height: 30px;
   letter-spacing: 0.5px;
 }
 
 #hero-area .contents .btn {
   margin: 25px 25px 0px 0px;
   text-transform: uppercase;
-  height: 60px;
-  vertical-align: center;
 }
 
 #hero-area .banner_bottom_btn {
@@ -465,7 +466,6 @@ button:focus {
 #hero-area .banner_bottom_btn i:hover {
   color: #61D2B4;
 }
-
 /* ==========================================================================
    4. Navbar Style
    ========================================================================== */
@@ -487,6 +487,7 @@ button:focus {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
   background: #fff !important;
+  min-height: 50px;
 }
 
 .top-nav-collapse .navbar-brand {
@@ -940,6 +941,10 @@ button:focus {
 /* ==========================================================================
 	9. Pricing Table
 	========================================================================== */
+#pricing 
+  {background-color: rgb(250,252,250);
+}
+
 .pricing-table {
   padding: 0px 0px 40px 0px;
   margin: 0 auto;
@@ -1199,6 +1204,10 @@ padding-bottom: 0;}
 
 #blog .odd {
   background-color: rgb(235,240,235);
+}
+
+#blog h4 {
+  text-align: center;
 }
 
 #blog .blog-item-wrapper {
