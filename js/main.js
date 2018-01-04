@@ -1,3 +1,21 @@
+
+/* 
+   Tarix
+   ========================================================================== */
+
+
+function myFunction(myVar) {
+    var x = document.getElementsByClassName("event");
+    for (i = 0; i < 5; i++) {
+        x[i].style.display = "none" ; }
+    document.getElementById(myVar).style.display = "block";
+}
+
+
+
+
+
+
 (function($) {
   
   "use strict";
@@ -47,6 +65,11 @@
       duplicate: false,
       label: '',
     });
+
+
+
+
+  
 
 
 /* 
