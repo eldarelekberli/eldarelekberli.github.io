@@ -512,6 +512,10 @@ button:focus {
   color: #fff !important;
 }
 
+
+
+
+
 .indigo {
   background: transparent;
 }
@@ -683,6 +687,8 @@ button:hover {
 }
 
 
+
+
 #two-feb , #three-feb , #five-feb , #six-feb{
   display: none;
   transition: all 0.3s ease 0s;
@@ -708,7 +714,11 @@ button:hover {
   margin:0;
 }
 
-
+#services span {
+    font-weight: 600;
+    color: #61d2b4;
+    font-size: 16px;
+}
 
 /*
 .item-boxes {
