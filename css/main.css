@@ -1068,10 +1068,49 @@ button:hover {
 /* ==========================================================================
  10. Counter Section Style
  ========================================================================== */
-.counters {
-  background: url(../img/counter.jpg) fixed;
+
+
+#counters {
   position: relative;
+  background-color: #ccc;
+  color: #555;
 }
+
+#counters .logo-section {
+  //text-align: center;
+
+ 
+}
+
+#counters img {
+  width: auto;
+  height: 140px;
+  display: inline-block;
+  margin: auto;
+  vertical-align: middle;
+  margin: 10px 30px;
+}
+
+#counters .rows{
+  margin: 50px;
+  border: 1px solid #bbb;
+  border-radius: 50px;
+}
+
+
+#counters .name-section {
+  display: flex;
+  text-align: right;
+  height: auto;
+}
+
+#counters .name {
+  width: 200px;
+  margin: auto;
+  //align-items: center
+  font-size: 32px;
+}
+
 
 .counters .facts-item {
   text-align: center;
@@ -1159,9 +1198,6 @@ button:hover {
   text-align: center;
 }
 
-#team .test {
-  text-align: center;
-}
 
 
 
