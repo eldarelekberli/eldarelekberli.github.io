@@ -18,15 +18,15 @@
     -2.5 SCROLL TO UP
   3. HERO AREA 
   4. NAVBAR
-  5. SERVICES SECTION
+  5. tedbirler SECTION
   6. FEATURES SECTION
   7. VIDEO PROMO SECTION
   8. PORTFOLIO SECTION
   9. PRICING TABLE 
-  10. COUNTER SECTION
+  10. sponsorlar SECTION
   11. TESTIMONIAL AREA
-  12. TEAM SECTION
-  13. BLOG SECTION
+  12. istirakcilar SECTION
+  13. gundelik SECTION
   14. CONTACT SECTION
   15. FOOTER SECTION
     -15.1 COMING SOON PAGE
@@ -411,7 +411,7 @@ button:focus {
 /* ==========================================================================
    3. Hero Area
    ========================================================================== */
-#hero-area {
+#ana-sehife {
   background: url(../img/mplaza.jpg) no-repeat;
   background-size: cover;
   color: #fff;
@@ -420,7 +420,7 @@ button:focus {
   background-position: center;
 }
 
-#hero-area .overlay {
+#ana-sehife .overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -430,18 +430,18 @@ button:focus {
   opacity: 0.9;
 }
 
-#hero-area .contents {
+#ana-sehife .contents {
   padding: 200px 0 130px;
 }
 
-#hero-area .contents h1 {
+#ana-sehife .contents h1 {
   color: #fff;
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 25px;
 }
 
-#hero-area .contents p {
+#ana-sehife .contents p {
   font-size: 14px;
   color: #fff;
   font-weight: 400;
@@ -449,16 +449,16 @@ button:focus {
   letter-spacing: 0.5px;
 }
 
-#hero-area .contents .btn {
+#ana-sehife .contents .btn {
   margin: 25px 25px 0px 0px;
   text-transform: uppercase;
 }
 
-#hero-area .banner_bottom_btn {
+#ana-sehife .banner_bottom_btn {
   margin-top: 40px;
 }
 
-#hero-area .banner_bottom_btn i {
+#ana-sehife .banner_bottom_btn i {
   color: #fff;
   font-size: 48px;
   -webkit-transition: all 0.2s linear;
@@ -467,7 +467,7 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#hero-area .banner_bottom_btn i:hover {
+#ana-sehife .banner_bottom_btn i:hover {
   color: #61D2B4;
 }
 /* ==========================================================================
@@ -608,32 +608,32 @@ button:focus {
 }
 
 /* ==========================================================================
-  5. Services section
+  5. tedbirler section
    ========================================================================== */
-#services p {
+#tedbirler p {
   padding: 0px;
   vertical-align: middle;
 }
 
-#services .team-title {
+#tedbirler .team-title {
   font-size: 20px;
   font-weight: 700;
   text-align: center;
 }
 
-#services .tall  {
+#tedbirler .tall  {
   min-height: 80px;
   text-align: center;
 }
 
-#services .tall .mtext {
+#tedbirler .tall .mtext {
   border-radius: 10px;
   border: 1px solid #ddd;
   padding: 2rem 0;
   
 }
 
-#services .tall .mtime {
+#tedbirler .tall .mtime {
   padding: 2rem;
   border-right: 1px dashed #aaa;
   border-top: 1px solid #ddd;
@@ -641,12 +641,12 @@ button:focus {
 
 }
 
-#services .short .mtime {
+#tedbirler .short .mtime {
   border-right: 1px dashed #aaa;
   padding: 1%;
 }
 
-#services .short .mtext {
+#tedbirler .short .mtext {
   background-color: rgb(240,240,240);
   padding: 1%;
   border-radius: 10px;
@@ -658,11 +658,11 @@ button:focus {
   border-top: 1px solid #ddd;
 }
 
-#services .tarix{
+#tedbirler .tarix{
   color: black;
 }
 
-#services #tbody {
+#tedbirler #tbody {
   color:red;
 }
 
@@ -689,32 +689,32 @@ button:hover {
 
 
 
-#two-feb , #three-feb , #five-feb , #six-feb{
+#two-feb , #three-feb , #five-feb , #six-feb #kurs{
   display: none;
   transition: all 0.3s ease 0s;
 }
 
-#services h4 {
+#tedbirler h4 {
   margin: 0;
 }
 
-#services .center {
+#tedbirler .center {
   margin:0 10px; 
   background-color: rgb(250,250,250);
   padding: 10px;
   border-radius: 30px;
 }
 
-#services .table-head {
+#tedbirler .table-head {
   margin: 20px 0;
 }
 
-#services .tmetn {
+#tedbirler .tmetn {
   font-size: 17px;
   margin:0;
 }
 
-#services span {
+#tedbirler span {
     font-weight: 600;
     color: #61d2b4;
     font-size: 16px;
@@ -763,7 +763,7 @@ button:hover {
   color: #fff;
 }
 */
-#services .tall .mtext:hover {
+#tedbirler .tall .mtext:hover {
   color: #61D2B4;
 }
 
@@ -908,11 +908,11 @@ button:hover {
 /* ==========================================================================
   8. Portfolio Section
    ========================================================================== */
-#portfolios .mix {
+#Master-klass .mix {
   padding: 10px;
 }
 
-#portfolios .portfolio-item .shot-item {
+#Master-klass .portfolio-item .shot-item {
   margin: 0px;
 }
 
@@ -1066,23 +1066,23 @@ button:hover {
 }
 
 /* ==========================================================================
- 10. Counter Section Style
+ 10. sponsorlar Section Style
  ========================================================================== */
 
 
-#counters {
+#sponsorlar {
   position: relative;
-  background-color: #ccc;
+  background-color: #fff;
   color: #555;
 }
 
-#counters .logo-section {
-  //text-align: center;
+#sponsorlar .logo-section {
+  text-align: center;
 
  
 }
 
-#counters img {
+#sponsorlar img {
   width: auto;
   height: 140px;
   display: inline-block;
@@ -1091,20 +1091,20 @@ button:hover {
   margin: 10px 30px;
 }
 
-#counters .rows{
+#sponsorlar .rows{
   margin: 50px;
-  border: 1px solid #bbb;
+  border: 1px dashed #ddd;
   border-radius: 50px;
 }
 
 
-#counters .name-section {
+#sponsorlar .name-section {
   display: flex;
   text-align: right;
   height: auto;
 }
 
-#counters .name {
+#sponsorlar .name {
   width: 200px;
   margin: auto;
   //align-items: center
@@ -1112,27 +1112,27 @@ button:hover {
 }
 
 
-.counters .facts-item {
+.sponsorlar .facts-item {
   text-align: center;
   color: #fff;
 }
 
-.counters .facts-item .icon {
+.sponsorlar .facts-item .icon {
   margin-bottom: 30px;
 }
 
-.counters .facts-item .icon i {
+.sponsorlar .facts-item .icon i {
   font-size: 50px;
   color: #fff;
 }
 
-.counters .facts-item .fact-count h3 {
+.sponsorlar .facts-item .fact-count h3 {
   font-size: 35px;
   color: #fff;
   margin-bottom: 15px;
 }
 
-.counters .facts-item .fact-count h4 {
+.sponsorlar .facts-item .fact-count h4 {
   font-size: 20px;
   font-weight: 400;
   color: #fff;
@@ -1187,9 +1187,9 @@ button:hover {
 }
 
 /* ==========================================================================
-  12. Team Section
+  12. istirakcilar Section
    ========================================================================== */
-#team {
+#istirakcilar {
   background: url(../img/bg1.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
@@ -1201,11 +1201,11 @@ button:hover {
 
 
 
-#team  .section-title {
+#istirakcilar  .section-title {
   color: white;  
 }
 
-#team  .section-subtitle {
+#istirakcilar  .section-subtitle {
   color: #61D2B4; 
 }
 
@@ -1300,33 +1300,33 @@ button:hover {
 
 
 /* ==========================================================================
-  13. Blog 
+  13. gundelik 
    ========================================================================== */
 
 
-#blog td:nth-child(2) {
+#gundelik td:nth-child(2) {
   font-style: italic;
   font-size: 16px;
 }
-#blog td p{
+#gundelik td p{
   text-decoration: none;
   font-style: initial;
   font-weight: bold;
   margin-bottom: 0;
 }
 
-#blog td {
+#gundelik td {
 padding-bottom: 0;}
 
-#blog .odd {
+#gundelik .odd {
   background-color: rgb(235,240,235);
 }
 
-#blog h4 {
+#gundelik h4 {
   text-align: center;
 }
 
-#blog .blog-item-wrapper {
+#gundelik .blog-item-wrapper {
   background: #fff;
   border-radius: 0px;
   -webkit-transition: transform 0.2s linear, -webkit-box-shadow 0.2s linear;
@@ -1334,40 +1334,40 @@ padding-bottom: 0;}
   transition: transform 0.2s linear, box-shadow 0.2s linear;
 }
 
-#blog .blog-item-wrapper:hover .blog-item-img:before {
+#gundelik .blog-item-wrapper:hover .blog-item-img:before {
   opacity: 1;
   height: 100%;
   width: 100%;
 }
 
-#blog .blog-item-img {
+#gundelik .blog-item-img {
   position: relative;
 }
 
-#blog .blog-item-img img {
+#gundelik .blog-item-img img {
   width: 100%;
 }
 
-#blog .blog-item-text {
+#gundelik .blog-item-text {
   padding: 20px 0;
 }
 
-#blog .blog-item-text h3 {
+#gundelik .blog-item-text h3 {
   line-height: 26px;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-#blog .blog-item-text h3 a {
+#gundelik .blog-item-text h3 a {
   color: #333;
 }
 
-#blog .blog-item-text h3 a:hover {
+#gundelik .blog-item-text h3 a:hover {
   color: #61D2B4;
 }
 
-#blog .blog-item-text p {
+#gundelik .blog-item-text p {
   line-height: 25px;
   margin-bottom: 20px;
 }
