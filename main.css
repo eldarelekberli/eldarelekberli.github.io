@@ -675,7 +675,7 @@ button:focus {
   color:red;
 }
 
-button {
+#tedbirler button {
   margin: 5px;
   padding: 10px 20px;
   display: inline-block;
@@ -687,7 +687,7 @@ button {
 }
 
 
-button:hover {
+#tedbirler button:hover {
   background-color: rgb(116,252,216);
   transform: scale(1.2);
   cursor: pointer;

@@ -12,6 +12,11 @@ function myFunction(myVar) {
 }
 
 
+function myFunction1() {
+    alert("Qeydiyyat müddəti bitdiyinə görə 077 325 0006 nömrəli telefona müraciət edin");
+}
+
+
 
 
 
