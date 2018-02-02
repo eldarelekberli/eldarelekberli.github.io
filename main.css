@@ -698,7 +698,7 @@ button:focus {
 
 
 
-#two-feb , #three-feb , #five-feb , #six-feb{
+#one-feb  , #two-feb , #three-feb , #six-feb{
   display: none;
   transition: all 0.3s ease 0s;
 }
