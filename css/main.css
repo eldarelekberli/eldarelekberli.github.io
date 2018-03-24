@@ -172,7 +172,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .btn-common {
   border: 1px solid #61D2B4;
-  background: #61D2B4;
+  background: hsla(164, 56%, 60%, 0.7);
   position: relative;
   color: #fff;
   z-index: 1;
@@ -450,7 +450,7 @@ button:focus {
 }
 
 #ana-sehife .contents .btn {
-  margin: 25px 25px 0px 0px;
+  margin: 10px 25px;
   text-transform: uppercase;
 }
 
@@ -470,6 +470,22 @@ button:focus {
 #ana-sehife .banner_bottom_btn i:hover {
   color: #61D2B4;
 }
+
+#ana-sehife .material {  
+    width:500;
+    background-color:hsla(0, 0%, 100%, 0.8);
+    font-size:32px;
+    color:#33b391;
+    margin:20px;
+    padding:20px;
+    border-radius:20px;
+    
+}
+
+#ana-sehife .material:hover {  
+    background-color:hsla(0, 0%, 100%, 1);
+}
+
 /* ==========================================================================
    4. Navbar Style
    ========================================================================== */
@@ -675,7 +691,7 @@ button:focus {
   color:red;
 }
 
-button {
+#tedbirler button {
   margin: 5px;
   padding: 10px 20px;
   display: inline-block;
@@ -687,7 +703,7 @@ button {
 }
 
 
-button:hover {
+#tedbirler button:hover {
   background-color: rgb(116,252,216);
   transform: scale(1.2);
   cursor: pointer;
