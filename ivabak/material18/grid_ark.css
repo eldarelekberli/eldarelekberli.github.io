@@ -1,0 +1,53 @@
+/* GRID AND BASIC STYLING -- DOUBLE CHECK BEFORE DELETING */
+
+@media screen and (min-width: 0px) {
+    
+    .grid {
+        background-color: #fff;
+        height: auto;
+    }
+
+    .row {
+        width: 95%;
+        margin: 70px auto;
+        
+    }
+    
+    .row:before,
+    .row:after {
+        content: " ";
+        display: table;
+    }
+    
+    .row:after {
+        clear: both;
+    }
+    
+    .col {
+        position: relative;
+        float: none;
+        width: 90%;
+        margin: 50px 2%;
+    }
+    
+    .col:first-of-type {
+        margin-left: 2%;
+    }
+  
+}
+
+
+@media screen and (min-width: 767px) {
+    
+    .col {
+        float: left;
+        width: 31.33%;
+        margin: 1%;
+    }
+
+    .col:first-of-type {
+        margin-left: 1%;
+    }
+    
+}
+
