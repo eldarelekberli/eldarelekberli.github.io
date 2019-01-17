@@ -1256,6 +1256,12 @@ button:focus {
 /* ==========================================================================
   12. istirakcilar Section
    ========================================================================== */
+
+#ist_table tr:nth-child(even){background-color: #f2f2f2;}
+#ist_table tr:hover {background-color: #fcfcfc;}
+
+
+
 #istirakcilar {
   background: url(../img/bg1.jpg) fixed no-repeat;
   background-size: cover;
