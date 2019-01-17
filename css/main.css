@@ -1158,6 +1158,11 @@ button:focus {
   margin: 10px 30px;
 }
 
+#sponsorlar .ksponsor {
+  width: auto;
+  height: 100px;
+}
+
 #sponsorlar .rows{
   margin: 50px;
   border: 1px dashed #ddd;
