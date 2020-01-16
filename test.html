@@ -483,33 +483,7 @@
         }
         
         // on smaller screen, expand the current weekday only, but not its individual agenda items
-        else {
-            switch (new Date().getDay()) {
-                case 0:
-                    // expand the day's agenda
-                    $('#sunday').collapse('show');
-                    
-                    // invert icon
-                    $('#sunday-header').find(".fa").toggleClass("fa-angle-double-down fa-angle-double-up");
-                    break;
-                case 1:
-                    $('#monday').collapse('show');
-                    $('#monday-header').find(".fa").toggleClass("fa-angle-double-down fa-angle-double-up");
-                    break;
-                case 2:
-                    $('#tuesday').collapse('show');
-                    $('#tuesday-header').find(".fa").toggleClass("fa-angle-double-down fa-angle-double-up");
-                    break;
-                case 3:
-                    $('#wednesday').collapse('show');
-                    $('#wednesday-header').find(".fa").toggleClass("fa-angle-double-down fa-angle-double-up");
-                    break;
-                case 4:
-                    $('#thursday').collapse('show');
-                    $('#thursday-header').find(".fa").toggleClass("fa-angle-double-down fa-angle-double-up");
-                    break;
-            }
-        }
+       
 
         // invert icon on expand/colapse button click
         $(".header, .card-header").click(function() {
